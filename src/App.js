@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import About from "./Pages/About/about.component";
-import Header from "./Components/Header/header.component";
-import Contact from "./Pages/Contact/contact.component";
+import Splash from "./Components/Splash/splash.component";
+import About from "./Components/About/about.component";
+import Projects from "./Components/Projects/projects.component";
+import Footer from "./Components/Footer/footer.component";
+import Contact from './Components/Contact/contact.component'
 
 class App extends React.Component {
   constructor(props) {
@@ -21,8 +23,11 @@ class App extends React.Component {
   render() {
       return (
         <div>
-          <Header currentPage={'About'}/>
-          {this.state.route === 'About' ? <About /> : <Contact />}
+          <Splash />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
         </div>
       )
   }

@@ -1,24 +1,25 @@
-import React from "react";
-import './footer.styles.sass'
+import React from 'react';
+import './footer.styles.sass';
+import { Container} from 'react-bootstrap';
+import SocialNetwork from '../SocialNetwork/socialNetwork.component';
 
 const Footer = () => {
   return (
-    <div className="footerContainer container-fluid">
-      <div className="row">
-        <div className="col-sm-6 socialLinksContainer d-flex flex-row justify-content-around">
-          <p>LinkedIn</p>
-          <p>GitHub</p>
-          <p>Email</p>
-        </div>
-        <div className="col-sm-6 contactContainer">
+    <footer className='footerWrapper navbar-static-bottom'>
+      <Container>
+        <a href='#top' aria-label='Back To Top' className='backToTop'>
+          <i className='fa fa-angle-up fa-2x' aria-hidden='true' />
+        </a>
 
+        <div className='socialLinks'>
+          <SocialNetwork name={'linkedin'} url={'https://www.linkedin.com/in/afranceschi/'} />
+          <SocialNetwork name={'github'} url={'https://github.com/francofle'} />
         </div>
-        <div className="col-12">
-          <p className='text-muted'>Copyright 2020 © Antonio J. Franceschi</p>
-        </div>
-      </div>
-    </div>
-  )
+        <hr />
+        <p className='footerWrapper__text'>Antonio J. Franceschi © {new Date().getFullYear()}</p>
+      </Container>
+    </footer>
+  );
 };
 
 export default Footer;
