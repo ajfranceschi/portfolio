@@ -1,0 +1,28 @@
+@import './src/styles/main'
+
+.stackLogos
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  width: 100%
+  padding-top: 40px
+
+  .logoCard
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    align-items: center
+    margin: 0 20px
+    @include respond(tab-port)
+      margin: 0 5px
+    @include respond(phone)
+      margin: 0 2.5px
+
+    & p
+      font-size: 14px
+      @include respond(phone)
+        font-size: 12px
+
+
+    .logo
+      width: 50px

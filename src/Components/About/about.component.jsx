@@ -4,6 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import './about.styles.sass';
 import portrait from '../../assets/images/portrait.jpeg';
 import Title from '../Title/title.component';
+import StackList from "../StackList/stackList.component";
 
 const About = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -22,7 +23,7 @@ const About = () => {
   return (
     <section id='about'>
       <Container>
-        <Title title='About Me'/>
+        <Title title='About Me' />
         <Row className='about-wrapper'>
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance='30px'>
@@ -35,24 +36,17 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance={'30px'}>
               <div className='about-wrapper__info'>
                 <p className='about-wrapper__info-text'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor
-                  pellentesque libero. Aenean enim mauris, ultricies vitae leo vitae, mollis
-                  ultricies nisl. Donec lorem ligula, cursus vitae auctor eget, tincidunt at eros.
-                  Morbi justo augue, sagittis nec felis vitae, rhoncus lobortis felis. Aenean quis
-                  urna ex. Donec eu cursus mi, at hendrerit nibh. Curabitur in finibus sem, ac
-                  sodales lacus. Duis porta tellus lectus, pharetra volutpat lectus efficitur eget.
-                  In libero nibh, tincidunt vitae tellus porta, aliquam fermentum ante. Quisque
-                  malesuada lectus in faucibus euismod.
+                  With more than 15 years of experience in the IT Industry, late 2018 I decided to
+                  change fields from IT Operations to Web Development. During this time I have taken
+                  multiple courses focusing in Full Stack Web Development and tutored friends
+                  through to their successful completion of the UCF Web Development Bootcamp.
                 </p>
                 <p className='about-wrapper__info-text'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor
-                  pellentesque libero. Aenean enim mauris, ultricies vitae leo vitae, mollis
-                  ultricies nisl. Donec lorem ligula, cursus vitae auctor eget, tincidunt at eros.
-                  Morbi justo augue, sagittis nec felis vitae, rhoncus lobortis felis. Aenean quis
-                  urna ex. Donec eu cursus mi, at hendrerit nibh. Curabitur in finibus sem, ac
-                  sodales lacus. Duis porta tellus lectus, pharetra volutpat lectus efficitur eget.
-                  In libero nibh, tincidunt vitae tellus porta, aliquam fermentum ante. Quisque
-                  malesuada lectus in faucibus euismod.
+                  I have worked with HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB,
+                  Firebase, PostgreSQL, Handlebars and Sass among others.
+                </p>
+                <p className='about-wrapper__info-text'>
+                 Let me help your company fulfill its mission and increase its value.
                 </p>
                 <span className='d-flex mt-3'>
                   <a
@@ -60,10 +54,21 @@ const About = () => {
                     rel='noopener noreferrer'
                     className='cta-btn cta-btn--resume'
                     href='#resume'
-                  >Resume</a>
+                  >
+                    Resume
+                  </a>
                 </span>
               </div>
             </Fade>
+          </Col>
+          <Col>
+            <Row>
+              <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance={'60px'}>
+                <div className="stackLogosWrapper">
+                  <StackList/>
+                </div>
+              </Fade>
+            </Row>
           </Col>
         </Row>
       </Container>
