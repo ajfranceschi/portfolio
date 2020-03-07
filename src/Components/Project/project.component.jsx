@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './project.styles.sass';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 const Project = ({ title, info, info2, url, repo, projectImage }) => {

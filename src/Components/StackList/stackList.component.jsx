@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './stackList.styles.sass';
-import Fade from 'react-reveal';
 import { Container, Row } from 'react-bootstrap';
 
 //images
@@ -17,19 +16,6 @@ import firebase from '../../assets/images/firebase.png';
 import sass from '../../assets/images/sass.png';
 
 const StackList = () => {
-  const [isDesktop, setIsDesktop] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
-      setIsDesktop(false);
-      setIsMobile(true);
-    }
-  });
-
   return (
     <Container>
       <Row>
