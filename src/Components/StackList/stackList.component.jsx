@@ -3,17 +3,17 @@ import './stackList.styles.sass';
 import { Container, Row } from 'react-bootstrap';
 
 //images
-import css from '../../assets/images/css.png';
-import express from '../../assets/images/express.png';
-import html from '../../assets/images/html.png';
-import js from '../../assets/images/js.png';
-import mongo from '../../assets/images/mongo.svg';
-import psql from '../../assets/images/postgresql.png';
-import nodejs from '../../assets/images/nodejs.png';
-import react from '../../assets/images/react.png';
-import handlebars from '../../assets/images/handlebars.png';
-import firebase from '../../assets/images/firebase.png';
-import sass from '../../assets/images/sass.png';
+import css from '../../assets/images/stackLogos/css.png';
+import express from '../../assets/images/stackLogos/express.png';
+import html from '../../assets/images/stackLogos/html.png';
+import js from '../../assets/images/stackLogos/js.png';
+import mongo from '../../assets/images/stackLogos/mongo.svg';
+import psql from '../../assets/images/stackLogos/postgresql.png';
+import nodejs from '../../assets/images/stackLogos/nodejs.png';
+import react from '../../assets/images/stackLogos/react.png';
+import handlebars from '../../assets/images/stackLogos/handlebars.png';
+import firebase from '../../assets/images/stackLogos/firebase.png';
+import sass from '../../assets/images/stackLogos/sass.png';
 
 const StackList = () => {
   return (
