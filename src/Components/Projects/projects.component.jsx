@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title='Projects'/>
           <Project title='Eat The Burger' info={`Technologies Used: MySQL, ExpressJS, Handlebars, JavaScript, HTML, CSS.`} projectImage={EatTheBurger} repo='http://github.com/francofle/eat-the-burger' url='https://eat-da-burger-hdlbrs-xprs-sql.herokuapp.com/' />
-          <Project title='React Memory Game' info={`Technologies Used: React, JavaScript, HTML, CSS`} projectImage={ReactMemoryGame} repo='http://github.com/francofle/react-memory-game' url='https://ajf-react-memory-game.herokuapp.com/' />
+          <Project title='React Memory Game' info={`Technologies Used: React, JavaScript, HTML, CSS`} projectImage={ReactMemoryGame} repo='http://github.com/francofle/react-memory-game' url='https://react-memory-game.ajfranceschi.com/' />
           <Project title='FriendMatch' info={`Technologies Used: ExpressJS, JavaScript, HTML, CSS,  Bootstrap.`} projectImage={FriendMatch} repo='http://github.com/francofle/friendMatch' url='https://portfolio-friend-match.herokuapp.com/' />
           <hr/>
         </div>
