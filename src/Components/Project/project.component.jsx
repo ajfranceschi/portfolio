@@ -24,7 +24,7 @@ const Project = ({ title, info, info2, url, repo, projectImage }) => {
           <div className='project-wrapper__text'>
             <h3 className='project-wrapper__text-title'>{title || 'Project Title'}</h3>
             <div>
-              <p>{info}</p>
+              {info}
               <p className='mb-4'>{info2 || ''}</p>
             </div>
 
