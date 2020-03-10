@@ -9,6 +9,7 @@ import ReactMemoryGame from '../../assets/images/projects/reactMemoryGame.png';
 import NewsScraper from '../../assets/images/projects/newsScraper.png';
 import TriviaGame from '../../assets/images/projects/triviaGame.png';
 import FaceDetection from '../../assets/images/projects/faceDetection.png';
+import FrshClothing from '../../assets/images/projects/frshClothing.png';
 
 const Projects = () => {
   return (
@@ -17,11 +18,23 @@ const Projects = () => {
         <div className='project-wrapper'>
           <Title title='Projects' />
           <Project
+            title='FRSH-Clothing'
+            info={
+              <p>
+                <strong>Technologies Used:</strong> &ensp; React, React-Router, Redux, Firebase,
+                Stripe, Sass, JavaScript, HTML, CSS.
+              </p>
+            }
+            projectImage={FrshClothing}
+            repo='https://github.com/francofle/frsh-clothing'
+            url='https://frsh-clothing.herokuapp.com/'
+          />
+          <Project
             title='Face Detection'
             info={
               <p>
                 <strong>Technologies Used:</strong> &ensp; React, PostgreSQL, NodeJS, ExpressJS,
-                HTML, CSS.
+                JavaScript, HTML, CSS.
               </p>
             }
             projectImage={FaceDetection}
