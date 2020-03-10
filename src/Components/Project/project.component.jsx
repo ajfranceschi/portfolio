@@ -18,7 +18,7 @@ const Project = ({ title, info, info2, url, repo, projectImage }) => {
   }, []);
 
   return (
-    <Row class='project-row'>
+    <Row className='project-row'>
       <Col lg={4} sm={12}>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance={'30px'}>
           <div className='project-wrapper__text'>

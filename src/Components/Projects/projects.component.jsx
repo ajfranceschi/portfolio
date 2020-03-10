@@ -10,6 +10,7 @@ import NewsScraper from '../../assets/images/projects/newsScraper.png';
 import TriviaGame from '../../assets/images/projects/triviaGame.png';
 import FaceDetection from '../../assets/images/projects/faceDetection.png';
 import FrshClothing from '../../assets/images/projects/frshClothing.png';
+import TrackSactions from '../../assets/images/projects/trackSactions.png';
 
 const Projects = () => {
   return (
@@ -17,6 +18,17 @@ const Projects = () => {
       <Container>
         <div className='project-wrapper'>
           <Title title='Projects' />
+          <Project
+            title='TrackSactions'
+            info={
+              <p>
+                <strong>Technologies Used:</strong> &ensp; React, MongoDB, Firebase, NodeJS, Express, React-Router, Redux, Redux-Thunk, Reselect, MomentJS, Sass, JavaScript, HTML, CSS.
+              </p>
+            }
+            projectImage={TrackSactions}
+            repo='https://github.com/francofle/tracksactions'
+            url='https://tracksactions.herokuapp.com/'
+          />
           <Project
             title='FRSH-Clothing'
             info={
