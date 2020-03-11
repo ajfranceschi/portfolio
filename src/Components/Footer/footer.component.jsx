@@ -12,8 +12,8 @@ const Footer = () => {
         </a>
 
         <div className='socialLinks'>
-          <SocialNetwork name={'linkedin'} url={'https://www.linkedin.com/in/afranceschi/'} />
-          <SocialNetwork name={'github'} url={'https://github.com/francofle'} />
+          <SocialNetwork name={'linkedin'} url={'https://www.linkedin.com/in/ajfranceschi/'} />
+          <SocialNetwork name={'github'} url={'https://github.com/ajfranceschi'} />
         </div>
         <hr />
         <p className='footerWrapper__text'>Antonio J. Franceschi © {new Date().getFullYear()}</p>

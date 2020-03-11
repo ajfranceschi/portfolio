@@ -26,7 +26,7 @@ const Projects = () => {
               </p>
             }
             projectImage={TrackSactions}
-            repo='https://github.com/francofle/tracksactions'
+            repo='https://github.com/ajfranceschi/tracksactions'
             url='https://tracksactions.herokuapp.com/'
           />
           <Project
@@ -38,7 +38,7 @@ const Projects = () => {
               </p>
             }
             projectImage={FrshClothing}
-            repo='https://github.com/francofle/frsh-clothing'
+            repo='https://github.com/ajfranceschi/frsh-clothing'
             url='https://frsh-clothing.herokuapp.com/'
           />
           <Project
@@ -50,7 +50,7 @@ const Projects = () => {
               </p>
             }
             projectImage={FaceDetection}
-            repo='https://github.com/francofle/face-detection'
+            repo='https://github.com/ajfranceschi/face-detection'
             url='https://face-detection-kenobi.herokuapp.com/'
           />
           <Project
@@ -61,7 +61,7 @@ const Projects = () => {
               </p>
             }
             projectImage={ReactMemoryGame}
-            repo='https://github.com/francofle/react-memory-game'
+            repo='https://github.com/ajfranceschi/react-memory-game'
             url='https://react-memory-game.ajfranceschi.com/'
           />
           <Project
@@ -73,7 +73,7 @@ const Projects = () => {
               </p>
             }
             projectImage={EatTheBurger}
-            repo='https://github.com/francofle/eat-the-burger'
+            repo='https://github.com/ajfranceschi/eat-the-burger'
             url='https://eat-da-burger-hdlbrs-xprs-sql.herokuapp.com/'
           />
           <Project
@@ -85,7 +85,7 @@ const Projects = () => {
               </p>
             }
             projectImage={NewsScraper}
-            repo='https://github.com/francofle/scrape-mongo-news'
+            repo='https://github.com/ajfranceschi/scrape-mongo-news'
             url='https://news-scraper-mdb-hdlbrs-xprs.herokuapp.com/'
           />
           <Project
@@ -97,7 +97,7 @@ const Projects = () => {
               </p>
             }
             projectImage={FriendMatch}
-            repo='https://github.com/francofle/friendMatch'
+            repo='https://github.com/ajfranceschi/friendMatch'
             url='https://portfolio-friend-match.herokuapp.com/'
           />
           <Project
@@ -108,7 +108,7 @@ const Projects = () => {
               </p>
             }
             projectImage={TriviaGame}
-            repo='https://github.com/francofle/trivia'
+            repo='https://github.com/ajfranceschi/trivia'
             url='https://sw-trivia.ajfranceschi.com/'
           />
         </div>

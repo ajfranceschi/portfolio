@@ -5,6 +5,7 @@ import './about.styles.sass';
 import portrait from '../../assets/images/portrait.jpeg';
 import Title from '../Title/title.component';
 import StackList from "../StackList/stackList.component";
+import resume from '../../assets/resume.pdf';
 
 const About = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -53,9 +54,17 @@ const About = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                     className='cta-btn cta-btn--resume'
-                    href='#resume'
+                    href={resume}
                   >
                     Resume
+                  </a>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='cta-btn cta-btn--resume linked-in-button'
+                    href='https://linkedin.com/in/ajfranceschi'
+                  >
+                    LinkedIn
                   </a>
                 </span>
               </div>
