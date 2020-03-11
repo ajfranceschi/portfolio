@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Col, Row } from 'react-bootstrap';
 import './about.styles.sass';
-import portrait from '../../assets/images/portrait.jpeg';
+import portrait from '../../assets/images/portrait.jpg';
 import Title from '../Title/title.component';
 import StackList from "../StackList/stackList.component";
 import resume from '../../assets/resume.pdf';
