@@ -4,7 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import './about.styles.sass';
 import portrait from '../../assets/images/portrait.jpg';
 import Title from '../Title/title.component';
-import StackList from "../StackList/stackList.component";
+import StackList from '../StackList/stackList.component';
 import resume from '../../assets/resume.pdf';
 
 const About = () => {
@@ -43,11 +43,11 @@ const About = () => {
                   through to their successful completion of the UCF Web Development Bootcamp.
                 </p>
                 <p className='about-wrapper__info-text'>
-                  I have worked with HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, MongoDB,
-                  Firebase, PostgreSQL, Handlebars and Sass among others.
+                  I have worked with HTML, CSS, JavaScript, JQuery, ReactJS, NodeJS, ExpressJS,
+                  MongoDB, Firebase, PostgreSQL, Handlebars and Sass among others.
                 </p>
                 <p className='about-wrapper__info-text'>
-                 Let me help your company fulfill its mission and increase its value.
+                  Let me help your company fulfill its mission and increase its value.
                 </p>
                 <span className='d-flex mt-3'>
                   <a
@@ -72,9 +72,15 @@ const About = () => {
           </Col>
           <Col>
             <Row>
-              <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance={'60px'}>
-                <div className="stackLogosWrapper">
-                  <StackList/>
+              <Fade
+                right={isDesktop}
+                bottom={isMobile}
+                duration={1000}
+                delay={1000}
+                distance={'60px'}
+              >
+                <div className='stackLogosWrapper'>
+                  <StackList />
                 </div>
               </Fade>
             </Row>
