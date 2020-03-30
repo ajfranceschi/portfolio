@@ -37,7 +37,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance={'30px'}>
               <div className='about-wrapper__info'>
                 <p className='about-wrapper__info-text'>
-                  With more than 15 years of experience in the IT Industry, late 2018 I decided to
+                  With more than 15 years of experience in the IT Industry, in late 2016 I decided to
                   change fields from IT Operations to Web Development. During this time I have taken
                   multiple courses focusing in Full Stack Web Development and tutored friends
                   through to their successful completion of the UCF Web Development Bootcamp.
